@@ -62,9 +62,15 @@ namespace GestioneOrdini.RESTWebApplication.Controllers
 
         //Update
         [HttpPut]
-        public ActionResult Update([FromBody] Ordine ordine)
+        public ActionResult Update([FromBody] Ordine ordine, int id)
         {
-            bool aggiornato = repo.Update(ordine);
+            Ordine ordine1 = repo.GetByID(id);
+            ordine1.CodiceOrdine = ordine.CodiceOrdine;
+            ordine1.CodiceProdotto = ordine.CodiceProdotto;
+            ordine1.DataOrdine = ordine.DataOrdine;
+            ordine1.Importo = ordine.Importo;
+            ordine1.Cliente = ordine.Cliente;
+            bool aggiornato = repo.Update(ordine1);
             if (aggiornato)
                 return Ok();
             return BadRequest();

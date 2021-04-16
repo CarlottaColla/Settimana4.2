@@ -10,27 +10,14 @@ using System.Text;
 
 namespace GestioneOrdini.WcfService
 {
-    public class GestioneOrdiniService : IGestioneOrdiniService
+    public class GestioneClientiService : IGestioneClientiService
     {
         //Implemento i servizi richiamando le operazioni CRUD implementate nei repository
         private IRepositoryCliente repoClienti = new RepositoryCliente();
-        private IRepositoryOrdine repoOrdine = new RepositoryOrdini();
 
         public bool CreaCliente(Cliente cliente)
         {
             return repoClienti.Create(cliente);
-        }
-
-        public bool CreaOrdine(Ordine ordine, Cliente cliente)
-        {
-            //Crea sempre un nuovo cliente
-            ordine.Cliente = cliente;
-            return repoOrdine.Create(ordine);
-        }
-
-        public bool ElimanOrdine(int id)
-        {
-            return repoOrdine.Delete(id);
         }
 
         public bool EliminaCliente(int id)
@@ -48,24 +35,14 @@ namespace GestioneOrdini.WcfService
             return repoClienti.GetAll();
         }
 
-        public Ordine GetOrdine(int id)
+        public bool ModificaCliente(int id, Cliente cliente)
         {
-            return repoOrdine.GetByID(id);
+            Cliente cliente1 = repoClienti.GetByID(id);
+            cliente1.CodiceCliente = cliente.CodiceCliente;
+            cliente1.Cognome = cliente.Cognome;
+            cliente1.Nome = cliente.Nome;
+            return repoClienti.Update(cliente1);
         }
 
-        public List<Ordine> GetOrdini()
-        {
-            return repoOrdine.GetAll();
-        }
-
-        public bool ModificaCliente(Cliente cliente)
-        {
-            return repoClienti.Update(cliente);
-        }
-
-        public bool ModificaOrdine(Ordine ordine)
-        {
-            return repoOrdine.Update(ordine);
-        }
     }
 }
