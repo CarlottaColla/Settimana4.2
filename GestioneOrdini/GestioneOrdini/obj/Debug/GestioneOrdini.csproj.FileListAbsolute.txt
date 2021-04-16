@@ -1,0 +1,6 @@
+C:\Users\carlotta.colla\Documents\Esami\Settimana4.2\GestioneOrdini\GestioneOrdini\bin\Debug\GestioneOrdini.dll
+C:\Users\carlotta.colla\Documents\Esami\Settimana4.2\GestioneOrdini\GestioneOrdini\bin\Debug\GestioneOrdini.pdb
+C:\Users\carlotta.colla\Documents\Esami\Settimana4.2\GestioneOrdini\GestioneOrdini\obj\Debug\GestioneOrdini.csprojAssemblyReference.cache
+C:\Users\carlotta.colla\Documents\Esami\Settimana4.2\GestioneOrdini\GestioneOrdini\obj\Debug\GestioneOrdini.csproj.CoreCompileInputs.cache
+C:\Users\carlotta.colla\Documents\Esami\Settimana4.2\GestioneOrdini\GestioneOrdini\obj\Debug\GestioneOrdini.dll
+C:\Users\carlotta.colla\Documents\Esami\Settimana4.2\GestioneOrdini\GestioneOrdini\obj\Debug\GestioneOrdini.pdb

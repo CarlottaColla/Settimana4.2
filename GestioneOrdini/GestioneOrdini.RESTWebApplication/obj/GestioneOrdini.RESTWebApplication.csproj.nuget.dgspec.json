@@ -1,0 +1,112 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\carlotta.colla\\Documents\\Esami\\Settimana4.2\\GestioneOrdini\\GestioneOrdini.RESTWebApplication\\GestioneOrdini.RESTWebApplication.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\carlotta.colla\\Documents\\Esami\\Settimana4.2\\GestioneOrdini\\GestioneOrdini.EF\\GestioneOrdini.EF.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\carlotta.colla\\Documents\\Esami\\Settimana4.2\\GestioneOrdini\\GestioneOrdini.EF\\GestioneOrdini.EF.csproj",
+        "projectName": "GestioneOrdini.EF",
+        "projectPath": "C:\\Users\\carlotta.colla\\Documents\\Esami\\Settimana4.2\\GestioneOrdini\\GestioneOrdini.EF\\GestioneOrdini.EF.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\carlotta.colla\\Documents\\Esami\\Settimana4.2\\GestioneOrdini\\GestioneOrdini\\GestioneOrdini.csproj": {
+                "projectPath": "C:\\Users\\carlotta.colla\\Documents\\Esami\\Settimana4.2\\GestioneOrdini\\GestioneOrdini\\GestioneOrdini.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\carlotta.colla\\Documents\\Esami\\Settimana4.2\\GestioneOrdini\\GestioneOrdini.RESTWebApplication\\GestioneOrdini.RESTWebApplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\carlotta.colla\\Documents\\Esami\\Settimana4.2\\GestioneOrdini\\GestioneOrdini.RESTWebApplication\\GestioneOrdini.RESTWebApplication.csproj",
+        "projectName": "GestioneOrdini.RESTWebApplication",
+        "projectPath": "C:\\Users\\carlotta.colla\\Documents\\Esami\\Settimana4.2\\GestioneOrdini\\GestioneOrdini.RESTWebApplication\\GestioneOrdini.RESTWebApplication.csproj",
+        "packagesPath": "C:\\Users\\carlotta.colla\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\carlotta.colla\\Documents\\Esami\\Settimana4.2\\GestioneOrdini\\GestioneOrdini.RESTWebApplication\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\carlotta.colla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\carlotta.colla\\Documents\\Esami\\Settimana4.2\\GestioneOrdini\\GestioneOrdini.EF\\GestioneOrdini.EF.csproj": {
+                "projectPath": "C:\\Users\\carlotta.colla\\Documents\\Esami\\Settimana4.2\\GestioneOrdini\\GestioneOrdini.EF\\GestioneOrdini.EF.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.14, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\carlotta.colla\\Documents\\Esami\\Settimana4.2\\GestioneOrdini\\GestioneOrdini\\GestioneOrdini.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\carlotta.colla\\Documents\\Esami\\Settimana4.2\\GestioneOrdini\\GestioneOrdini\\GestioneOrdini.csproj",
+        "projectName": "GestioneOrdini",
+        "projectPath": "C:\\Users\\carlotta.colla\\Documents\\Esami\\Settimana4.2\\GestioneOrdini\\GestioneOrdini\\GestioneOrdini.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}
